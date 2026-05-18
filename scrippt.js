@@ -4,31 +4,31 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Дюна: Часть вторая',
       year: 2024,
-      img: '/images/image1.png',
+      img: './images/image1.png',
       link: 'https://www.kinopoisk.ru/film/1298744/'
     },
     {
       title: 'Оппенгеймер',
       year: 2023,
-      img: '/images/image2.png',
+      img: './images/image2.png',
       link: 'https://www.kinopoisk.ru/film/4664634/'
     },
     {
       title: 'Трансформеры',
       year: 2007,
-      img: '/images/image3.png',
+      img: './images/image3.png',
       link: 'https://www.kinopoisk.ru/film/81288/'
     },
     {
       title: 'Убийцы цветочной луны',
       year: 2023,
-      img: '/images/image4.png',
+      img: './images/image4.png',
       link: 'https://www.kinopoisk.ru/film/1188529/'
     },
     {
       title: 'Джон Уик 4',
       year: 2023,
-      img: '/images/image6.png',
+      img: './images/image6.png',
       link: 'https://www.kinopoisk.ru/film/1267348/'
     },
   ];
@@ -37,25 +37,25 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Аватар: Путь воды',
       year: 2022,
-      img: '/images/image5.png',
+      img: './images/image5.png',
       link: 'https://www.kinopoisk.ru/film/843649/'
     },
     {
       title: 'Бамблби',
       year: 2018,
-      img: '/images/image7.png',
+      img: './images/image7.png',
       link: 'https://www.kinopoisk.ru/film/952241/'
     },
     {
       title: 'Топ Ган: Мэверик',
       year: 2022,
-      img: '/images/image8.png',
+      img: './images/image8.png',
       link: 'https://www.kinopoisk.ru/film/572032/'
     },
     {
       title: 'Кот в сапогах 2',
       year: 2022,
-      img: '/images/image9.png',
+      img: './images/image9.png',
       link: 'https://www.kinopoisk.ru/film/840883/'
     },
   ];
