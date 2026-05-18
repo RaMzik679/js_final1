@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieHub — лучшие фильмы</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="MovieHub, фильмы">
+  <meta name="description" content="Новинки, классика, рецензии — всё в одном месте.">
+  <link rel="stylesheet" href="manifest.json">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">🎥 MovieHub</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">Главная</a></li>
+          <li><a href="#catalog" class="nav__link">Каталог</a></li>
+          <li><a href="#about" class="nav__link">О нас</a></li>
+          <li><a href="#contact" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+        🌓
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Главный экран -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1 class="hero__title">Открой мир кино</h1>
+        <p class="hero__desc">Новинки, классика, рецензии — всё в одном месте.</p>
+        <a href="#catalog" class="btn">Смотреть подборку</a>
+      </div>
+    </section>
+
+    <!-- Каталог фильмов с карточками -->
+    <section id="catalog" class="catalog">
+      <div class="container">
+        <h2 class="section-title">Сейчас популярно</h2>
+        <div id="movie-grid" class="movie-grid">
+        </div>
+        <div class="catalog__more">
+          <button id="load-more" class="btn btn--outline">Показать еще</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- О проект -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Почему MovieHub?</h2>
+        <div class="features">
+          <div class="feature-card">
+            <span class="feature-icon">🎞️</span>
+            <h3>Обширная база</h3>
+            <p>Более 10 000 фильмов с высоким рейтингом.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">⭐</span>
+            <h3>Честные рейтинги</h3>
+            <p>Оценки зрителей и профессиональные рецензии.</p>
+          </div>
+          <div class="feature-card">
+            <span class="feature-icon">📱</span>
+            <h3>Всегда под рукой</h3>
+            <p>Удобный просмотр на любых устройствах.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="reviews">
+      <div class="container">
+        <h2 class="section-title">Что говорят зрители</h2>
+        <div class="reviews-grid">
+          <div class="review-card">
+            <p class="review-text">«Отличный сайт! Нашёл здесь редкие артхаусные фильмы.»</p>
+            <span class="review-author">— Анна К.</span>
+          </div>
+          <div class="review-card">
+            <p class="review-text">«Удобный каталог и приятный дизайн. Рекомендую!»</p>
+            <span class="review-author">— Игорь П.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Обратная связь</h2>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required minlength="2">
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.ru" required>
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" placeholder="Ваше сообщение..." required minlength="10"></textarea>
+            <span class="error-message"></span>
+          </div>
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; 2026 MovieHub. Все права защищены.</p>
+      <div class="socials">
+        <a href="#" aria-label="VK">VK</a>
+        <a href="#" aria-label="Telegram">TG</a>
+        <a href="#" aria-label="YouTube">YT</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/scrippt.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "name" : "MovieHub",
+    "short_name": "Фильмы",
+    "description": "Новинки, классика, рецензии — всё в одном месте.",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color" : "#ffffff",
+    "orientation" : "landscape",
+    "icons": [
+        {
+            "src": "image.png",
+            "cizes": "512x512",
+            "type" : "image/png"
+        }
+    ]
+}
